@@ -1,0 +1,143 @@
+body{
+    background-color: #2B2F37;
+    margin: 0px;
+    padding: 0px;
+}
+
+.category{
+    /* border: 1px solid green; */
+    background-color: #313640;
+    box-shadow: rgba(34, 34, 34, 0.25) 0px 14px 28px, rgba(31, 31, 31, 0.22) 0px 10px 10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px ;
+    
+}
+ul{
+    list-style: none;
+}
+.categories{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:30px ;
+    margin-top: 30px;
+}
+.container-item{
+    border: 1px solid #E8B609;
+    margin: 10px 20px;
+    padding: 2px 15px;
+    border-radius: 10px;
+}
+.categories a{
+    text-decoration: none;
+    color:rgb(223, 221, 221);
+}
+.categories a:hover{
+    color: #E8B609;
+}
+
+.food-image{
+    height: 160px;
+    background-color: white;
+}
+.food-detail{
+   
+    height: 160px;
+    overflow: hidden;
+}
+hr{
+    margin: 0px;
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+/* Food Images */
+
+.f-img1{
+    background-image: url(/images/pista\ badaam.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f-img2{
+    background-image: url(/images/Kabuli\ Pulao.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f-img3{
+    background-image: url(/images/Dalia.jpg.crdownload);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f-img4{
+    background-image: url(/images/Nihari.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f-img5{
+    background-image: url(/images/banana-shake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f-img6{
+    background-image: url(/images/egg\ sandwich.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f-img7{
+    background-image: url(/images/haleem.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f-img8{
+    background-image: url(/images/chana-pulao.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f-img9{
+    background-image: url(/images/mutton\ karahi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f-img10{
+    background-image: url(/images/chicken\ karahi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media all and (max-width:570px) {
+    .categories{
+        font-size: 0.7rem;
+
+    }
+    .container-item{
+        margin: 10px 8px;
+    }
+}
+
+@media all and (max-width:370px) {
+    .categories{
+        font-size: 0.5rem;
+
+    }
+    .container-item{
+        margin: 10px 5px;
+    }
+}
+
+@media all and (max-width:320px) {
+    .categories{
+        font-size: 0.4rem;
+
+    }
+    .container-item{
+        margin: 10px 3px;
+    }
+}
+
